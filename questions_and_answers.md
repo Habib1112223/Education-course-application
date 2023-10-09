@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: 
 
-<i>Write your explanation here</i>
+<i>ans: this is an emtry object.object declear must be things</i>
 
 </p>
 </details>
