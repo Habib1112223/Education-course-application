@@ -12,6 +12,7 @@ const Gallery = ({ gallery }) => {
                   
                   <div className="flex mx-w-96 flex-col rounded-xl shadow-md">
                         <img
+                        className="h-[270px] w-full"
                               src={image}
                               alt="img-blur-shadow"
                         />

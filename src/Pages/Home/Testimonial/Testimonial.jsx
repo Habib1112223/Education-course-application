@@ -11,7 +11,7 @@ const Testimonial = ({ testimonial }) => {
 
                   <div className="flex mx-w-96 flex-col rounded-xl shadow-md">
                         <img
-                        className="w-full h-[220px]"
+                        className="w-full h-[150px] rounded-2xl"
                               src={image}
                               alt="image-testimonial"
                         />

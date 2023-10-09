@@ -2,50 +2,50 @@
         {
           "id": 1,
           "image": "https://i.ibb.co/dWRKtqm/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg",
-          "name": "Education Training Center",
-          "description": "This is a description of Product 1.",
+          "name": "Workshops and Seminars",
+          "description": "In today's digital age, online courses and webinars provide a flexible way for individuals to access educational content from anywhere in the worldIn today's digital age, online courses and webinars provide a flexible way for individuals to access educational content from anywhere in the world..",
           "price": 550,
-          "button": "View Details"
+          "button": "Purchase"
         },
         {
           "id": 2,
           "image": "https://i.ibb.co/swSSVSW/6-edu.jpg",
-          "name": "Career Fair",
-          "description": "https://i.ibb.co/dWRKtqm/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg",
+          "name": "Online Courses",
+          "description": "In today's digital age, online courses and webinars provide a flexible way for individuals to access educational content from anywhere in the world.In today's digital age, online courses and webinars provide a flexible way for individuals to access educational content from anywhere in the world.",
           "price": 256,
-          "button": "View Details"
+          "button": "Purchase"
         },
         {
           "id": 3,
           "image": "https://i.ibb.co/r3bDVkY/3-edu.jpg",
-          "name": "Education Training Center",
-          "description": "This is the description for Product 3.",
+          "name": "Corporate Training Programs",
+          "description": ": Many businesses offer training events to enhance the skills of their employees. These can include leadership development, technical training, and soft skills workshops. Many businesses offer training events to enhance the skills of their employees. These can include leadership development, technical training, and soft skills workshops. Many businesses offer training events to enhance the skills of their employees. These can include leadership development, technical training, and soft skills workshops.",
           "price": 450,
-          "button": "View Details"
+          "button": "Purchase"
         },
         {
           "id": 4,
           "image": "https://i.ibb.co/sHKRy0L/7edu.jpg",
-          "name": "Career Hub Training",
-          "description": "Description of Product 4 is here.",
+          "name": "Conference and Symposium",
+          "description": " These events are larger in scale and often feature multiple speakers and breakout sessions. Conference and symposium services include event planning, logistics, and speaker managementIn today's digital age, online courses and webinars provide a flexible way for individuals to access educational content from anywhere in the world...",
           "price": 350,
-          "button": "View Details"
+          "button": "Purchase"
         },
         {
           "id": 5,
           "image": "https://i.ibb.co/fvSS3mw/edu-8.jpg",
-          "name": "Education Training Center",
-          "description": "Product 5 description goes here.",
+          "name": "Professional Certification Programs",
+          "description": "Organizations often offer certification programs for specific industries or professions. These programs require comprehensive training and may include exams or assessments.Organizations often offer certification programs for specific industries or professions. These programs require comprehensive training and may include exams or assessments.Organizations often offer certification programs for specific industries or professions. These programs require comprehensive training and may include exams or assessments.",
           "price": 500,
-          "button": "View Details"
+          "button": "Purchase"
         },
         {
           "id": 6,
           "image": "https://i.ibb.co/wR9wKbJ/2-edu.jpg",
-          "name": "Career Fair",
-          "description": "Description of Product 6.",
+          "name": "Language and Cultural Programs",
+          "description": " Language schools and cultural exchange programs provide immersive learning experiences for individuals looking to learn a new language or gain cultural understanding through events such as language classes, homestays, and cultural workshops.Organizations often offer certification programs for specific industries or professions. These programs require comprehensive training and may include exams or assessments.",
           "price": 450,
-          "button": "View Details"
+          "button": "Purchase"
         }
       ]
     

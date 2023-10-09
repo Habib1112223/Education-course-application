@@ -21,7 +21,7 @@ const SingleEvent = () => {
                   </div>
                   <div>
                         <h2 className="text-3xl font-bold text-black mb-2">{name}</h2>
-                        <p className="text-sm text-white">{description}</p>
+                        <p className="text-sm text-black">{description}</p>
                         <p className="text-2xl font-bold">Price:{price}</p>
                         <button className=" btn bg-amber-500">{button}</button>
                   </div>
