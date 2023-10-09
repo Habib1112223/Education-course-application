@@ -33,7 +33,7 @@ const Login = () => {
                     const user = result.user;
                     console.log(user);
                     navigate('/', {replace: true})
-                    Swal.fire("Successfully Account Created!")
+                    Swal.fire("Successfully account Created!")
                 })
                 .catch(error => setError(error.message))
         }
