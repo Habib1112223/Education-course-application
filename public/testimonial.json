@@ -1,0 +1,28 @@
+
+       [
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/47w8ZTv/1Tes.jpg",
+          "details": "It is an amazing city. The people here are some of the friendliest you'll ever meet. Though the winters are long and can be bitterly cold, Winnipeg's skies are among the clearest in Canada",
+          "name": "Ruth Ratnam"
+        },
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/f1GBgNK/T4.jpg",
+          "details": "A friend of mine who was studying at MITT, suggested I check out the programs, and the Network Computer Technology program caught my eye right away. The fact that the program included a co-op option, was a main attraction for me.",
+          "name": "Jane Smith"
+        },
+        {
+          "id": 3,
+          "image": "https://i.ibb.co/VJT0zFL/T3.jpg",
+          "details": "A friend of mine who was studying at MITT, suggested I check out the programs, and the Network Computer Technology program caught my eye right away. The fact that the program included a co-op option, was a main attraction for me.",
+          "name": "Robert Johnson"
+        },
+        {
+          "id": 4,
+          "image": "https://i.ibb.co/ZLKWTPK/T-2.jpg",
+          "details": "I was lucky to get placed in a practicum with Manitoba E-Health. This real-life experience helped me to become highly marketable in the industry. Today, I work at Shaw Communications—one of the largest networking services.",
+          "name": "Emily Wilson"
+        }
+      ]
+    

@@ -1,0 +1,52 @@
+   [
+        {
+          "id": 1,
+          "image": "https://i.ibb.co/dWRKtqm/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg",
+          "name": "Education Training Center",
+          "description": "This is a description of Product 1.",
+          "price": 550,
+          "button": "View Details"
+        },
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/swSSVSW/6-edu.jpg",
+          "name": "Career Fair",
+          "description": "https://i.ibb.co/dWRKtqm/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg",
+          "price": 256,
+          "button": "View Details"
+        },
+        {
+          "id": 3,
+          "image": "https://i.ibb.co/r3bDVkY/3-edu.jpg",
+          "name": "Education Training Center",
+          "description": "This is the description for Product 3.",
+          "price": 450,
+          "button": "View Details"
+        },
+        {
+          "id": 4,
+          "image": "https://i.ibb.co/sHKRy0L/7edu.jpg",
+          "name": "Career Hub Training",
+          "description": "Description of Product 4 is here.",
+          "price": 350,
+          "button": "View Details"
+        },
+        {
+          "id": 5,
+          "image": "https://i.ibb.co/fvSS3mw/edu-8.jpg",
+          "name": "Education Training Center",
+          "description": "Product 5 description goes here.",
+          "price": 500,
+          "button": "View Details"
+        },
+        {
+          "id": 6,
+          "image": "https://i.ibb.co/wR9wKbJ/2-edu.jpg",
+          "name": "Career Fair",
+          "description": "Description of Product 6.",
+          "price": 450,
+          "button": "View Details"
+        }
+      ]
+    
+    
