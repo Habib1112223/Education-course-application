@@ -5,6 +5,7 @@ import Error from "../Error/Error";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
 import SingleEvent from "../Pages/SingleEvent/SingleEvent";
+import About from "../Pages/About/About";
 
 const router = createBrowserRouter([
       {
@@ -14,10 +15,13 @@ const router = createBrowserRouter([
             children:[
                   {
                         path:'/',
-                        element:<Home></Home>
-                      
-                      
+                        element:<Home></Home>   
                   },
+                  {
+                        path:'/about',
+                        element:<About></About> 
+                  },
+
                   {
                         path:'/login',
                         element:<Login></Login>
