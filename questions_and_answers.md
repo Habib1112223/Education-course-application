@@ -15,12 +15,14 @@ console.log(greetign);
 - B: `ReferenceError: greetign is not defined`
 - C: `undefined`
 
-<details><summary><b>A</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
 #### Answer: 
+ In many programming languages like Python, JavaScript, and Java, curly braces are used to define blocks of code. Code enclosed within curly braces is treated as a single unit or scope.
 
-<i>ans: this is an emtry object.object declear must be things</i>
+<i>Write your explanation here </i>
+`{}` :- The blocks of code are used in many programming language like python, javaScript and java.The curly braces is treated as a single unit or scope.
 
 </p>
 </details>
@@ -40,12 +42,15 @@ sum(1, "2");
 - C: `"12"`
 - D: `3`
 
-<details><summary><b>C</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer:
+ C
 
 <i>Write your explanation here</i>
+
+`"12"` :- The function sum (a,b) is meant to sum two values a and b. However, you call sum (1,"2"),you are passing number (1) and a string ("2") as arguments. So the result of sum (1, "2") will be the string "12".
 
 </p>
 </details>
