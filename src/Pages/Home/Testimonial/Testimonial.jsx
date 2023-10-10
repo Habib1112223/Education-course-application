@@ -9,7 +9,7 @@ const Testimonial = ({ testimonial }) => {
       return (
             <Link to={``}>
 
-                  <div className="flex mx-w-96 flex-col rounded-xl shadow-md">
+                  <div className="flex mx-w-96 flex-col rounded-xl shadow-md" data-aos="zoom-in">
                         <img
                         className="w-full h-[150px] rounded-2xl"
                               src={image}

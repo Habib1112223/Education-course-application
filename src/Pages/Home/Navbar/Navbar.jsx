@@ -5,29 +5,35 @@ import Swal from "sweetalert2";
 
 
 const Navbar = () => {
-      const {user,logOut} = useContext(AuthContext);
+      const { user, logOut } = useContext(AuthContext);
       const navigate = useNavigate()
 
-      const handleSignOut = () =>{
+      const handleSignOut = () => {
             logOut()
-            .then(() => {
-                  Swal.fire('Successfully LogOut') 
-                navigate('/login', {replace: true})
-            })
-            .catch(error => console.error(error))
-            
+                  .then(() => {
+                        Swal.fire('Successfully LogOut')
+                        navigate('/login', { replace: true })
+                  })
+                  .catch(error => console.error(error))
+
       }
 
 
-      const navLinks= <>
-      <li><NavLink to='/'>Home</NavLink></li>
-      <li><NavLink to='/about'>About</NavLink></li>
-      <li><NavLink to='/services'>Services</NavLink></li>
-      <li><NavLink to='/gallery'>Gallery</NavLink></li>
-      
+      const navLinks = <>
+            <li><NavLink to='/'>Home</NavLink></li>
+            <li><NavLink to='/about'>About</NavLink></li>
+            <li><NavLink to='/career'>Career</NavLink></li>
+            {
+                  user?.uid && <>
+                        <li><NavLink to='/services'>Services</NavLink></li>
+                        <li><NavLink to='/gallery'>Gallery</NavLink></li>
+                  </>
+
+            }
+
       </>
       return (
-            <div className="navbar bg-gray-100 rounded-lg">
+            <div className="navbar bg-gray-100 rounded-lg"  data-aos="fade-down">
                   <div className="navbar-start">
                         <div className="dropdown">
                               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -37,34 +43,34 @@ const Navbar = () => {
                                     {navLinks}
                               </ul>
                         </div>
-                        <Link className="btn btn-ghost normal-case text-3xl font-bold "> 
-                        <div className="text-amber-600">
-                        <span className="text-3xl font-bold">Learn</span><span>
-                              Hub
-                        </span>
-                        </div>
+                        <Link className="btn btn-ghost normal-case text-3xl font-bold ">
+                              <div className="text-amber-600">
+                                    <span className="text-3xl font-bold">Learn</span><span>
+                                          Hub
+                                    </span>
+                              </div>
                         </Link>
                   </div>
                   <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
-                            {navLinks}
+                              {navLinks}
                         </ul>
                   </div>
-                 <div className="navbar-end">
-                 {
-                        user?.uid ?
-                        <>
-                              <button onClick={handleSignOut} className="btn ">Sign Out</button>
-                              <h3>{user.displayName}</h3>
-                              <img src={user?.photoURL} alt="" className="w-10 h-10 rounded-full border-red-100 border-2" />
-                        </>
-                        :
-                        <Link className="btn" to="/login">
-                        Login
-                       </Link>
-                  }
-                 
-                 </div>
+                  <div className="navbar-end">
+                        {
+                              user?.uid ?
+                                    <>
+                                          <button onClick={handleSignOut} className="btn ">Sign Out</button>
+                                          <h3>{user.displayName}</h3>
+                                          <img src={user?.photoURL} alt="" className="w-10 h-10 rounded-full border-red-100 border-2" />
+                                    </>
+                                    :
+                                    <Link className="btn" to="/login">
+                                          Login
+                                    </Link>
+                        }
+
+                  </div>
             </div>
       );
 };

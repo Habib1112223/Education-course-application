@@ -1,14 +1,20 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../Pages/Home/Navbar/Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
 import Swal from "sweetalert2";
+import { FaGoogle } from "react-icons/fa";
 
 
 const Login = () => {
       const navigate = useNavigate()
       const { signIn, signInWithGoogle } = useContext(AuthContext);
       const [error, setError] = useState('');
+      const location = useLocation();
+
+      const from = location.state?.from?.pathname || '/';
+
+
       const handleLogin = e => {
             e.preventDefault();
             setError('')
@@ -20,7 +26,7 @@ const Login = () => {
                   .then(result => {
                         console.log(result)
                         Swal.fire('Successfully Login')
-                        navigate('/',{replace:true})
+                        navigate(from, { replace: true })
                   })
                   .catch(error => {
                         setError(error.message)
@@ -29,14 +35,14 @@ const Login = () => {
 
       const handleSignInWithGoogle = () => {
             signInWithGoogle()
-                .then((result) => {
-                    const user = result.user;
-                    console.log(user);
-                    navigate('/', {replace: true})
-                    Swal.fire("Successfully account Created!")
-                })
-                .catch(error => setError(error.message))
-        }
+                  .then((result) => {
+                        const user = result.user;
+                        console.log(user);
+                        navigate(from, { replace: true })
+                        Swal.fire("Successfully")
+                  })
+                  .catch(error => setError(error.message))
+      }
       return (
             <div>
                   <Navbar></Navbar>
@@ -57,6 +63,10 @@ const Login = () => {
                                     <label className="label">
                                           <Link href="#" className="label-text-alt link link-hover">Forgot password?</Link>
                                     </label>
+
+                                    <div className="text-center">
+                                          <button onClick={handleSignInWithGoogle} className="btn bg-amber-500  hover:bg-amber-500 font-bold px-10 py-1 text-white"><FaGoogle></FaGoogle>Google</button>
+                                    </div>
                               </div>
                               {
                                     error && <p className="text-red-500 ">{error}</p>
@@ -67,9 +77,7 @@ const Login = () => {
                         </form>
 
                         <p className="text-center mt-4">Do not have an account?<Link className="text-blue-600 font-bold" to="/register"> Register</Link></p>
-                        <div className="text-center ">
-                              <button onClick={handleSignInWithGoogle} className="text-amber-600 font-bold px-10 py-1">Create Account with Google</button>
-                        </div>
+
                   </div>
             </div>
       );

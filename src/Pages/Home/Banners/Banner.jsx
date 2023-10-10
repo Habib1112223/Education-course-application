@@ -3,7 +3,7 @@ import './banner.css';
 const Banner = () => {
       return (
             <div className={`px-2 lg:px-0 banner`}>
-                  <div className="pt-[120px] pb-[200px] flex justify-center items-center flex-col">
+                  <div className="pt-[120px] pb-[200px] flex justify-center items-center flex-col" data-aos="fade-right">
                         <h1 className="text-amber-600 lg:text-5xl text-3xl text-center font-semibold mb-2">Your Education, Your Training</h1>
                         <div className='text-white text-center'>
                         <p>Training is mostly short-term with a concrete goal; it focuses more on the role  as it aims <br />

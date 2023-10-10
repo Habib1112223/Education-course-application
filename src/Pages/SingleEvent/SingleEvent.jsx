@@ -7,9 +7,11 @@ const SingleEvent = () => {
       const events= useLoaderData();
       const {id}= useParams() 
       const idInt = parseInt(id);
-      const event = events?.find(event => event.id === idInt)
+      const event = events?.find(event => event.id === idInt);
      
       const {image,name,description,price,button} = event
+
+
 
       
       return (
@@ -19,11 +21,11 @@ const SingleEvent = () => {
                   <div>
                         <img src={image} alt="image" />
                   </div>
-                  <div>
+                  <div className="mt-8">
                         <h2 className="text-3xl font-bold text-black mb-2">{name}</h2>
-                        <p className="text-sm text-black">{description}</p>
-                        <p className="text-2xl font-bold">Price:{price}</p>
-                        <button className=" btn bg-amber-500">{button}</button>
+                        <p className="text-sm text-black mb-4">{description}</p>
+                        <p className="text-2xl font-bold mb-4">Price: {price}</p>
+                        <button className=" btn bg-amber-500 hover:bg-amber-500">{button}</button>
                   </div>
                  </div>
 
