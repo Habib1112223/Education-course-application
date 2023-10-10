@@ -74,9 +74,13 @@ console.log(food);
 <details><summary><b>A</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 
+A
 
 <i>Write your explanation here</i>
+
+explanation: food is an array, info is an object. It sets the favorite Food property of the info object to the first element of the food array, That is "🍕". However, a new value "🍝" to the favoriteFood property of the info object. This change does not affect the food array.
+
 
 </p>
 </details>
@@ -96,12 +100,13 @@ console.log(sayHi());
 - C: `Hi there, null`
 - D: `ReferenceError`
 
-<details><summary><b>B</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
 #### Answer: ?
-
+ B
 <i>Write your explanation here</i>
+ Explanation:- A function sayHi, that takes one parameter name and returns a greeting string. when you call sayHi() without passing an argument, it will result in an error because the function expects a name argument to be provided.To fix this issue and avoid an error, you should provide a value for the name parameter when calling the sayHi function
 
 </p>
 </details>
@@ -124,12 +129,15 @@ console.log(count);
 - C: 3
 - D: 4
 
-<details><summary><b>C</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
 #### Answer: ?
+C
 
-<i>+= means increase 1 sum 1 ,</i>
+
+<i>Write your explanation here</i>
+Explanation:- A count variable is to 0 and defines an array nums containing numbers. It uses forEach method to iterate over the elements of the nums array and increments the count variable by 1 for each element that is truthy (i.e., not equal to 0). so, for the other elements (1,2,3), the count variable will be incremented.The final value of count will be 3.
 
 </p>
 </details>
