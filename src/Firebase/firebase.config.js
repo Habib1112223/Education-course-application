@@ -4,13 +4,14 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDCbMNkkxlGzxWgopS6xzZd-gIbsKSPX-4",
-  authDomain: "react-assignmet-nine.firebaseapp.com",
-  projectId: "react-assignmet-nine",
-  storageBucket: "react-assignmet-nine.appspot.com",
-  messagingSenderId: "863073861032",
-  appId: "1:863073861032:web:dd1bbf6b280a46092db19d"
+  apiKey:import.meta.env.VITE_APIKEY,
+  authDomain:import.meta.env. VITE_AUTHDOMAIN,
+  projectId:import.meta.env.VITE_PROJECTID,
+  storageBucket:import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID,
 };
 
 // Initialize Firebase

@@ -10,7 +10,7 @@ const Banner = () => {
                                at a specific job or requirement and revolves around present or immediate worker needs.</p>
                         </div>
                         <div className="mt-[30px]">
-                              <form action="" className="pl-4 border-[#DEDEDE] border-2 rounded-lg bg-white">
+                              <form className="pl-4 border-[#DEDEDE] border-2 rounded-lg bg-white">
                                     <input className='lg:w-[360px] outline-none' name="category" type="text" placeholder='Search here' />
                                     <button className='bg-amber-600 text-white py-4 px-7 rounded-r-lg text-base font-semibold' type="submit">Search</button>
                               </form>
