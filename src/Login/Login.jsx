@@ -64,12 +64,9 @@ const Login = () => {
                                           <Link href="#" className="label-text-alt link link-hover">Forgot password?</Link>
                                     </label>
 
-                                    <div className="text-center">
-                                          <button onClick={handleSignInWithGoogle} className="btn bg-amber-500  hover:bg-amber-500 font-bold px-10 py-1 text-white"><FaGoogle></FaGoogle>Google</button>
-                                    </div>
                               </div>
                               {
-                                    error && <p className="text-red-500 ">{error}</p>
+                                    error && <p className="text-red-700">{error}</p>
                               }
                               <div className="form-control mt-6">
                                     <button type="submit" className="btn bg-amber-500 hover:bg-amber-500">Login</button>
@@ -78,6 +75,9 @@ const Login = () => {
 
                         <p className="text-center mt-4">Do not have an account?<Link className="text-blue-600 font-bold" to="/register"> Register</Link></p>
 
+                  </div>
+                  <div className="text-center">
+                        <button onClick={handleSignInWithGoogle} className="btn bg-amber-500  hover:bg-amber-500 font-bold px-10 py-1 text-white"><FaGoogle></FaGoogle>Google</button>
                   </div>
             </div>
       );

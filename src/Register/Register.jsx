@@ -104,11 +104,6 @@ const Register = () => {
                                           <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                     </label>
 
-                                    <div className="text-center">
-                                          <button onClick={handleSignInWithGoogle} className="btn bg-amber-600  hover:bg-amber-600 font-bold px-10 py-1 text-white"><FaGoogle></FaGoogle>Google</button>
-                                    </div>
-                                  
-
 
                               </div>
                               {
@@ -125,6 +120,9 @@ const Register = () => {
 
                         <p className="text-center mt-4">Already have an account? <Link className="text-amber-600 font-bold" to="/login"> Login</Link></p>
 
+                  </div>
+                  <div className="text-center">
+                        <button onClick={handleSignInWithGoogle} className="btn bg-amber-600  hover:bg-amber-600 font-bold px-10 py-1 text-white"><FaGoogle></FaGoogle>Google</button>
                   </div>
             </div>
       );
